@@ -1,0 +1,34 @@
+/* block level element*/
+div{
+    border-style:solid ;
+    border-color: red;
+    border-width: 4px;
+
+
+}
+/* inline element */
+span{
+    /* border-style:solid ;
+    border-color: violet;
+    border-width: 5px; */
+
+    /*shorthand structure*/
+    border: 5px solid violet;
+    border-radius: 5px;
+    border-bottom: 4px solid green;
+     
+
+
+    /**/
+    /* padding from top&bottom 40px -left and right*/
+    /* top right bottom left*/
+    /* padding: 20px 30px 40px 50px ; */
+    /*padding: 20px 40px;*/
+
+    /* margin: 40px; */
+    margin-top: 400px;
+    margin-left: 50px;
+
+
+
+}

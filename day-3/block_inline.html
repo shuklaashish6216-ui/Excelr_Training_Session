@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block and Inline </title>
+    <style>
+        div{
+            border: 2px solid black;
+            height: 40px;
+            width: 100px;
+            padding: 10px;
+            margin: 20px;
+
+
+        }
+        span{
+            border: 4px solid blue;
+            height: 40px;
+            width: 100px;
+            padding: 10px;
+            margin: 40px;
+
+        }
+        p{
+            border: 1px solid black;
+            /* display: inline; */
+
+        }
+        i{
+            border: 1px solid black;
+            height: 40px;
+            width: 100px;
+            display: block;
+
+        }
+        b{
+            border: 1px solid black;
+            /* display:inline-block; */
+            height: 40px;
+            width: 100px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- block level element : it always starts in a new line 
+                             : it occupies full width of a page 
+                             : it supports height and width , padding and margin
+                             ex- div p heading tags article section 
+                             
+        inline element : it doesn't start on a new line 
+                       : it occupies the space much as needed 
+                       : it won't support height and width
+                       : it won't support margin(top and bottom0-- partial support)
+                       ex - i , b , span, u , mark ,  strike , del ,img , label , input 
+                       
+        to change we can use display property / to convert from block - inline and vice versa
+        display -- block -- behaves like block 
+               inline-block -- behaves like inline but supports height and width
+               none - hide element 
+            -->
+    <div>block level element </div>
+    <span>inline element</span>
+    <!-- <i>hello</i> -->
+
+
+    <!-- <h1>Lorem ipsum <mark>dolor</mark>, sit amet <u>consectetur</u>  adipisicing elit. Fugiat alias accusantium rerum magnam corporis asperiores quis cumque earum, est nostrum quibusdam ipsam soluta cum et optio natus dolorem perspiciatis quos maiores pariatur, quod voluptates tempora. Adipisci sint aspernatur nostrum nulla laudantium ipsum harum soluta cumque totam atque. Architecto, hic facilis.
+
+    </h1>
+    <i>Lorem ipsum dolor, sit amet <p>consectetur </p>adipisicing elit. Obcaecati adipisci, suscipit velit eaque voluptates distinctio reiciendis veniam porro corrupti autem laudantium neque at minima itaque eum, debitis totam ab nesciunt non provident aliquid exercitationem. Quaerat ducimus vitae obcaecati, doloribus, molestiae labore odio impedit inventore assumenda quo aliquid maiores, natus consequuntur.</i> -->
+    <p>Lorem ipsum dolor sit amet.</p>
+    <i>Lorem ipsum dolor sit amet.</i>
+
+
+    <b>Lorem ipsum dolor sit amet.</b>
+    
+</body>
+</html>
