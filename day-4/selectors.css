@@ -31,7 +31,7 @@
 .child{
     border: 1px solid red;
 }
-/*  Desender selectir -- which style both direct and indirect child */
+/*  Desender selector -- which style both direct and indirect child */
 /* .parent .child{
     color: beige;
 } */

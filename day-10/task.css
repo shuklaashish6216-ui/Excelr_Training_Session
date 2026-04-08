@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-container{
+    height: 90%;
+    display: grid;
+    grid-template-areas: "navbar   navbar "
+                         "section1 section2"
+                         "section1 section2"
+                         "section1 section2"
+                         "main     main"
+                         "main     main "
+                         "main     main"
+                         "footer   footer"
+                         "footer   footer"
+                         "footer   footer";
+}
+
+nav{
+    grid-area: navbar;
+    background-color: blue;
+
+}
+.one{
+    grid-area: section1;
+    background-color: beige;
+
+}
+.two{
+    grid-area: section2;
+    background-color: cadetblue;
+
+}
+.main{
+    grid-area:main ;
+    background-color: aqua;
+}
+.three{
+    grid-area: content;
+
+}
+.four{
+    grid-area: footer;
+
+}
+nav{
+    height: 100px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: flex-end;
+
+}
+a{
+    color: gray;
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: none
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
